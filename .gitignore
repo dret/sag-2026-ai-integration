@@ -1,0 +1,11 @@
+.DS_Store
+
+# GitHub's OpenAPI description: large, downloaded with curl (see README)
+spec/
+
+.venv/
+*.stderr
+__pycache__/
+*.pyc
+
+# traces/ is deliberately NOT ignored: the traces are the evidence
