@@ -166,7 +166,7 @@ def fig_scale():
     ax.text(bx0 + bc * pitch / 2, 450, "a large organization", ha="center", va="center",
             fontsize=40, fontweight="bold", color=DARK,
             bbox=dict(facecolor="white", edgecolor="none", alpha=0.85, pad=14))
-    ax.text(bx0 + bc * pitch / 2, 512, "thousands to tens of thousands of capabilities",
+    ax.text(bx0 + bc * pitch / 2, 512, "tens to hundreds of thousands of capabilities",
             ha="center", va="center", fontsize=24, color=DARK,
             bbox=dict(facecolor="white", edgecolor="none", alpha=0.85, pad=8))
     save(fig, "scale-651-tools.png")
